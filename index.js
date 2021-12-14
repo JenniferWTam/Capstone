@@ -55,6 +55,7 @@ app.get('/account/all', function(req, res){
 });
 
 
-var port = 3000;
-app.listen(port);
-console.log('Running on port: ' + port);
+const server = app.listen(process.env.PORT || 3000, () => {
+  const port = server.address().port;
+  console.log(`Express is working on port ${port}`);
+});
