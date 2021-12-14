@@ -194,7 +194,7 @@ function LoginForm(props){
 
   return (<>
     <div className ="mb-4">
-       <h5>Please Login with your infortion below:</h5>
+       <h5>Please Login with your information below:</h5>
     </div>
 
 
